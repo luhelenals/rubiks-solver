@@ -1,0 +1,38 @@
+{
+  "camera_id": 0,
+  "resolution": {
+    "width": 1280,
+    "height": 720
+  },
+  "color_ranges": {
+    "white": {
+      "lower": [0, 0, 168],
+      "upper": [180, 30, 255]
+    },
+    "yellow": {
+      "lower": [20, 100, 100],
+      "upper": [30, 255, 255]
+    },
+    "red": {
+      "lower": [0, 100, 100],
+      "upper": [10, 255, 255]
+    },
+    "orange": {
+      "lower": [10, 100, 100],
+      "upper": [20, 255, 255]
+    },
+    "blue": {
+      "lower": [100, 100, 100],
+      "upper": [130, 255, 255]
+    },
+    "green": {
+      "lower": [40, 100, 100],
+      "upper": [80, 255, 255]
+    }
+  },
+  "detection": {
+    "grid_size_factor": 3,
+    "sample_size": 10,
+    "min_confidence": 0.8
+  }
+}
